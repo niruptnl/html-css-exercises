@@ -1,0 +1,15 @@
+#one{
+        margin-left: 500px;
+        margin-right: 400px;
+      }
+.two
+      {
+        border:2px solid blue;
+        padding:5px;
+        text-align: center;
+      }
+
+body
+{
+	background-color: rgb(80,100,150);
+}
