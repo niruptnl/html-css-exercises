@@ -1,0 +1,167 @@
+#header
+{
+	height: 90px;
+	  background-color:white;  
+	 position: fixed; 
+	 z-index: 20;
+	 margin-top: 0px;
+
+}
+
+#header img
+{
+	float: left;
+	width:230px;
+	height:90px;
+	
+}
+
+#menu li
+{
+	display: inline;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: inherit;
+}
+
+#menu
+{
+	float:right;
+	/* margin: 30px 50px; */
+	margin-top: 30px;
+	margin-left: 660px;
+}
+
+#menu a:link {
+    color: #019875;
+    text-decoration: none;
+}
+
+/* visited link */
+#menu a:visited {
+    color: #019875;
+     text-decoration: none;
+}
+
+/* mouse over link */
+#menu a:hover {
+    color: #019875;
+     text-decoration: none;
+}
+
+/* selected link */
+#menu a:active {
+    color: #019875;
+     text-decoration: none;
+}
+
+
+.image
+{
+	background-color: #019875;
+}
+
+.about
+{
+	margin-top: 70px;
+	text-align: center;
+	color: #99CC00;
+	font-weight:bold;
+	font-size: 16px;
+	line-height: 2em;
+	font-family: inherit;
+}
+
+.sdtexplain
+{
+	margin-top: 5px;
+	text-align: center;
+	color: rgb(120,120,250);
+	font-weight:bold;
+	font-size: 15px;
+	line-height: 2em;
+	margin-bottom: 5px;
+	font-family: inherit;
+}
+
+.sdtexplain p
+{
+
+	text-align: center;
+	color: #FF6600;
+	font-weight:bold;
+	font-size: 15px;
+	line-height: 2em;
+	font-family: inherit;
+}
+
+
+.work
+{
+	text-align: center;
+	color: rgb(120,120,250);
+	font-weight:bold;
+	font-size: 16px;
+	font-family: inherit;
+}
+.videos
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.careers 
+{
+	margin-top: 10px;
+	text-align: center;
+	color: rgb(120,120,250);
+	font-weight:bold;
+	font-size: 16px;
+	line-height: 2em;
+	margin-bottom: 10px;
+	font-family: inherit;
+}
+
+.careers p
+{
+	
+	text-align: center;
+	color: #FF6600;
+	font-weight:bold;
+	font-size: 15px;
+	line-height: 2em;
+	font-family: inherit;
+}
+
+.contact 
+{
+	text-align: center;
+	color: #99CC00;
+	font-weight:bold;
+	font-size: 15px;
+	line-height: 2em;
+	margin-bottom: 10px;
+	font-family: inherit;
+}
+
+.contact h4
+{
+	font-size: 16px;
+	font-weight:bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-family: inherit;
+}
+
+.copyrights 
+{
+	
+	text-align: center;
+	color: #99CC00;
+	font-weight:bold;
+	font-size: 15px;
+	line-height: 2em;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	font-family: inherit;
+}
