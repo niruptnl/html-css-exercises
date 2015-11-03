@@ -1,6 +1,4 @@
-
-#header
-{
+#header{
 	height: 80px;
 	 position: fixed;
 	 z-index: 20;
@@ -8,26 +6,23 @@
   background-color: white;
     width: 100%;
 		min-width: 910px;
-}
+	}
 
 #header img {
 	float: left;
 	width:180px;
 	height:70px;
 	margin-left: 20px;
-
 }
 
-#menu li
-{
+#menu li{
 	display: inline;
 	font-size: 17px;
 	font-weight: bold;
 	font-family: inherit;
 }
 
-#menu
-{
+#menu{
 	float:right;
 	/* margin: 30px 50px; */
 	margin-top: 30px;
@@ -58,34 +53,30 @@
 }
 
 /* service styling */
-.service
-{
+.service{
 height: 100px;
 background-color: #E0EBEB;
 margin-top: 100px;
 /*position: relative;*/
 }
 
-.service h3
-{
+.service h3{
   margin-left: 50px;
   color:#019875;
   padding-top: 13px;
 }
-.service p
-{
+
+.service p{
   margin-left: 50px;
   color:#019875;
 }
 /* service styling end */
 
-.image
-{
+.image{
 	background-color: #019875;
 }
 
-.about
-{
+.about{
 	margin-top: 70px;
 	text-align: center;
 	color: #99CC00;
@@ -95,8 +86,7 @@ margin-top: 100px;
 	font-family: inherit;
 }
 
-.sdtexplain
-{
+.sdtexplain{
 	margin-top: 5px;
 	text-align: center;
 	color: rgb(120,120,250);
@@ -107,9 +97,7 @@ margin-top: 100px;
 	font-family: inherit;
 }
 
-.sdtexplain p
-{
-
+.sdtexplain p{
 	text-align: center;
 	color: #FF6600;
 	font-weight:bold;
@@ -119,23 +107,21 @@ margin-top: 100px;
 }
 
 
-.work
-{
+.work{
 	text-align: center;
 	color: rgb(120,120,250);
 	font-weight:bold;
 	font-size: 16px;
 	font-family: inherit;
 }
-.videos
-{
+
+.videos{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 /* what we do styling*/
-.onediv img
-{
+.onediv img{
   width: 310px;
   height:200px;
 }
@@ -144,23 +130,21 @@ margin-top: 100px;
   width: 310px;
   height:200px;
 }
-.threediv img
-{
+.threediv img{
   width: 310px;
   height:200px;
 }
-.onediv
-{
+.onediv{
   margin-bottom: 10px;
   color:black;
   line-height: 2em;
-
 }
+
 .onediv h4{color:#019875;}
 .onediv p{color:#019875;font-size: 14px;font-weight: 500;}
 .onediv question{line-height: 1em;}
-.twodiv
-{
+
+.twodiv{
   margin-bottom: 10px;
   color:black;
   line-height: 2em;
@@ -169,8 +153,7 @@ margin-top: 100px;
 .twodiv p{color:#019875;font-size: 14px;font-weight: 500;}
 .twodiv question{line-height: 1em;}
 
-.threediv
-{
+.threediv{
   margin-bottom: 10px;
   color:black;
   line-height: 2em;
@@ -181,21 +164,17 @@ margin-top: 100px;
 /* what we do styling end*/
 
 /* graph styling */
-.graph img
-{
+.graph img{
   width: 600px;
 
 }
 
-
-.graphdata h3
-{
+.graphdata h3{
   color: #019875;
 
 }
 
-.graphdata p
-{
+.graphdata p{
   color: #FF774A;
   line-height: 2em;
   font-weight: 600;
@@ -203,34 +182,30 @@ margin-top: 100px;
 /* graph styling end*/
 
 /* growth styling end*/
-.growth img
-{
+.growth img{
   width: 700px;
 }
 
-.growthdata h3
-{
+.growthdata h3{
   color: #019875;
 
 }
 
-.growthdata p
-{
+.growthdata p{
   color: #FF774A;
   line-height: 2em;
   font-weight: bold;
 }
 /* growth styling end*/
-.quote
-{
+.quote{
   color:#007AF4;
   text-align: left;
   font-size: 17px;
   text-align: center;
   font-weight: bold;
 }
-.careers
-{
+
+.careers{
 	margin-top: 10px;
 	text-align: center;
 	color: rgb(120,120,250);
@@ -241,9 +216,7 @@ margin-top: 100px;
 	font-family: inherit;
 }
 
-.careers p
-{
-
+.careers p{
 	text-align: center;
 	color: #FF6600;
 	font-weight:bold;
@@ -252,8 +225,7 @@ margin-top: 100px;
 	font-family: inherit;
 }
 
-.contact
-{
+.contact{
 	text-align: center;
 	color: #99CC00;
 	font-weight:bold;
@@ -263,8 +235,7 @@ margin-top: 100px;
 	font-family: inherit;
 }
 
-.contact h4
-{
+.contact h4{
 	font-size: 16px;
 	font-weight:bold;
 	margin-top: 0px;
@@ -288,12 +259,12 @@ margin-top: 100px;
   height: 22px;
 }
 
-.icons
-{margin-left: 10px;letter-spacing: 5px;}
+.icons{
+	margin-left: 10px;letter-spacing: 5px;
+}
 
 .copylist a:link {
     color: #019875;
-
 }
 
 /* visited link */
@@ -316,8 +287,7 @@ margin-top: 100px;
   font-size: 14px;
   margin-left: 0px;
 }
-.copylist li:after
-    {
+.copylist li:after{
       content: ' |';
     }
 
