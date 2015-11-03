@@ -1,20 +1,20 @@
+
 #header
 {
-	height: 90px;
-	  background-color:white;
+	height: 80px;
 	 position: fixed;
 	 z-index: 20;
 	 margin-top: 0px;
-	 width: 100%;
-	 
-
+  background-color: white;
+    width: 100%;
+		min-width: 910px;
 }
 
-#header img
-{
+#header img {
 	float: left;
-	width:230px;
-	height:90px;
+	width:180px;
+	height:70px;
+	margin-left: 20px;
 
 }
 
@@ -57,6 +57,27 @@
      text-decoration: none;
 }
 
+/* service styling */
+.service
+{
+height: 100px;
+background-color: #E0EBEB;
+margin-top: 100px;
+/*position: relative;*/
+}
+
+.service h3
+{
+  margin-left: 50px;
+  color:#019875;
+  padding-top: 13px;
+}
+.service p
+{
+  margin-left: 50px;
+  color:#019875;
+}
+/* service styling end */
 
 .image
 {
@@ -112,6 +133,102 @@
 	margin-bottom: 10px;
 }
 
+/* what we do styling*/
+.onediv img
+{
+  width: 310px;
+  height:200px;
+}
+
+.twodiv img{
+  width: 310px;
+  height:200px;
+}
+.threediv img
+{
+  width: 310px;
+  height:200px;
+}
+.onediv
+{
+  margin-bottom: 10px;
+  color:black;
+  line-height: 2em;
+
+}
+.onediv h4{color:#019875;}
+.onediv p{color:#019875;font-size: 14px;font-weight: 500;}
+.onediv question{line-height: 1em;}
+.twodiv
+{
+  margin-bottom: 10px;
+  color:black;
+  line-height: 2em;
+}
+.twodiv h4{color:#019875;}
+.twodiv p{color:#019875;font-size: 14px;font-weight: 500;}
+.twodiv question{line-height: 1em;}
+
+.threediv
+{
+  margin-bottom: 10px;
+  color:black;
+  line-height: 2em;
+}
+.threediv h4{color:#019875;}
+.threediv p{color:#019875;font-size: 14px;font-weight: 500;}
+.threediv question{line-height: 1em;}
+/* what we do styling end*/
+
+/* graph styling */
+.graph img
+{
+  width: 600px;
+
+}
+
+
+.graphdata h3
+{
+  color: #019875;
+
+}
+
+.graphdata p
+{
+  color: #FF774A;
+  line-height: 2em;
+  font-weight: 600;
+}
+/* graph styling end*/
+
+/* growth styling end*/
+.growth img
+{
+  width: 700px;
+}
+
+.growthdata h3
+{
+  color: #019875;
+
+}
+
+.growthdata p
+{
+  color: #FF774A;
+  line-height: 2em;
+  font-weight: bold;
+}
+/* growth styling end*/
+.quote
+{
+  color:#007AF4;
+  text-align: left;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
 .careers
 {
 	margin-top: 10px;
@@ -155,9 +272,7 @@
 	font-family: inherit;
 }
 
-.copyrights
-{
-
+.copyrights {
 	text-align: center;
 	color: #019875;
 	font-weight:normal;
@@ -168,8 +283,7 @@
 	font-family: inherit;
 }
 
-.copyrights img
-{
+.copyrights img {
 	width: 22px;
   height: 22px;
 }
