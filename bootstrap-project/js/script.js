@@ -18,6 +18,10 @@ $(document).ready(function(){
       $("#myModal1 iframe").attr("src", $("#myModal1 iframe").attr("src"));
   });
 
+  $('#hoverchange1').click(function(e){
+    e.preventDefault();
+  });
+
     $('#alertMe').click(function(e){
       e.preventDefault();
       $('#successAlert').slideDown();

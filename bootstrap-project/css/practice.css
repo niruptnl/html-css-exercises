@@ -1,0 +1,124 @@
+
+.thumbnail{
+	margin-right: 5px;
+}
+.clip-me{
+	position: absolute;
+	-webkit-clip-path: circle(50% at 50% 50%);
+/*clip: rect(50px, 150px, 150px, 50px);*/
+}
+.circle {
+	background: deepskyblue;
+	border-radius:50%;
+	color: black;
+	display:table;
+	height: 100px;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 100px;
+	margin-left:100px;
+  margin-top: 30px;
+}
+.circle span {
+	display:table-cell;
+	vertical-align:middle;
+	height:100px;
+	width:100px;
+	text-align:center;
+	padding: 0 15px;
+}
+
+@media (max-width: 480px) {
+  /*#searchInput{
+    width: 150px;
+  }*/
+	.slick-bar{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.thumbnail .caption .btn{
+		width: 90px;
+	}
+	.thumbnail .caption{
+		padding-left: 0px;
+	}
+}
+@media (max-width: 768px) {
+  ul.nav li.dropdown#services:hover > ul.dropdown-menu {
+      display: block;
+  }
+	.slick-bar{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (min-width: 1200px) {
+  ul.nav li.dropdown#services:hover > ul.dropdown-menu {
+      display: block;
+  }
+}
+
+.table{
+  border-top-style: hidden;
+  margin-bottom: 0px;
+}
+#searchInput{
+  width: 200px;
+}
+
+.navbar-brand
+{
+  padding:13px 15px;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+.col-sm-6{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*.two{
+  padding-left: 0px;
+}
+.one{
+  padding-right: 0px;
+}*/
+.check,.check1,.check2{
+  display: flex;
+  border: 3px solid lightgrey;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row1,.row3{
+  margin: 2px;
+  background-color: lightblue;
+  width:100%;
+  border: 1px solid white;
+  height: 150px;
+  //text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+.row2{
+  margin: 2px;
+  background-color: lightblue;
+  width: 100%;
+  border: 1px solid white;
+  height: 120px;
+  //text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+.newrow{
+  margin-top: 50px;
+}

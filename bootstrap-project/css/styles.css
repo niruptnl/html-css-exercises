@@ -8,7 +8,68 @@ Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
 */
+marquee{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* modal body styling */
+.usersignin{
+  margin-bottom: 10px;
+}
+.modal-body{
+  text-align: center;
+  line-height: 2em;
+  background-color: beige;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;}
+.modal-body .close{color:darkolivegreen;opacity: .6;}
+.modal-body img{margin-bottom: 20px;}
+.modal-body p{color: #4d9900;font-weight: bold; }
+.modal-body span{color:#e62e00;}
+.modal-body .btn.btn-danger{width: 120px;margin-top: 5px;margin-bottom: 10px;}
+.modal-body .btn.btn-link{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#newuser{color:#e62e00;}
+#fbsignin{margin-right: 5px;}
+/* modal body styling end*/
 
+  /* div on hover example */
+
+.panel:hover .hspan{
+  opacity: 0.1;
+  transition: all .2s linear;
+  cursor: text;
+  text-decoration: none;
+}
+.panel:hover .hspan p{
+  opacity: 0.1;
+  transition: all .2s linear;
+  cursor: text;
+  text-decoration: none;
+}
+.panel .hoverspan a:hover .hspan{
+  opacity: 0.1;
+  cursor: text;
+  text-decoration: none;
+}
+
+.hoverspan{
+  opacity: 0;
+  position: absolute;
+  z-index: 99;
+  top: 150px;
+  width: 70%;
+  left: 15%;
+  right: auto;
+}
+.panel:hover .hoverspan{
+  opacity: 1;
+  transition: all .2s linear;
+}
+
+/* div on hover example end*/
 
 /* --------------------------------------
    Layout
@@ -169,6 +230,7 @@ footer{
 }
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+
 .thumbnail .price{
   font-size: 14px;
 }
@@ -182,6 +244,7 @@ footer{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
   ul.nav li.dropdown#services:hover > ul.dropdown-menu {
       display: block;
   }
@@ -219,6 +282,8 @@ footer{
 
 /* Large desktop */
 @media (min-width: 1200px) {
+
+.modal-dialog{width: 500px;}
 
   #myCarousel .item { height: 500px; }
 
