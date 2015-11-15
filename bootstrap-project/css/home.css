@@ -1,3 +1,81 @@
+/* Reviews CSS */
+.container-fluid.movies{
+  margin-top: 100px;
+}
+
+.clip-thoongavanam,.clip-hotel-transylvania2,.clip-kanche,.clip-pyaar-ka-punchnama-2,.martian{
+  /*position: absolute;*/
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,.clip-pyaar-ka-punchnama-2 img,.martian img{
+  height: 150px;
+  width: 100%;
+}
+.col-sm-2.more div{
+  border-width: 194px;
+  padding-top: 25px;
+	background: url("../img/reviews/review.jpg");
+  font-size: 40px;
+  padding-left: 25px;
+  color: floralwhite;
+}
+.clip-more{
+   -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+   height: 150px;
+   width: 100%;
+}
+
+.hreview,.hreview1,.hreview2,.hreview3,.hreview4{
+visibility: hidden;
+position: absolute;
+ top: 30px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+ text-align: center;
+}
+.hreview span,.hreview1 span,.hreview2 span,.hreview3 span,.hreview4 span{
+  color: crimson;
+  font-size:16px;
+  font-weight: bold;
+}
+.hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+  border-radius: 0;
+}
+.col-12 #thoongavanam,.col-12 #kanche,.col-12 #pkp2,.col-12 #hotelt2,.col-12 #martian{
+  visibility: hidden;
+}
+
+.reviewdiv{
+  margin-top: 20px;
+  height: 600px;
+  margin-left: 20px;
+}
+#thoongavanam img,#hotelt2 img,#kanche img,#martian img,#pkp2 img{
+  float: left;
+}
+.reviewdata{
+  float: left;
+  width:600px;
+  height: 400px;
+  padding-left: 40px;
+  /*background-color: lightgrey;*/
+}
+.clip-thoongavanam-review{
+  float: left;
+    -webkit-clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 5% 20%,0% 20%,5% 10%);
+    width:600px;
+    height: 400px;
+  /*border: 1px solid blue;*/
+  background-color: darkkhaki;
+  padding: 10px;
+  line-height: 1.5em;
+  color:floralwhite;
+  box-shadow: 0px 0px 5px crimson;
+}
+.clip-thoongavanam-review h5{letter-spacing: 0.4px;}
+/* Reviews CSS End */
+
  body{background-color: lightgoldenrodyellow;}
  .thumbnail{
 background-color: lightgoldenrodyellow;
