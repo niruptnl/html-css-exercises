@@ -3,6 +3,8 @@ $(window).load(function(){
 });
 
 $(document).ready(function(){
+
+
   $('.carousel').carousel({
  interval: 5000
 });
@@ -13,6 +15,13 @@ $('#trailer1').on('hidden.bs.modal', function () {
 
 $('#trailer2').on('hidden.bs.modal', function () {
     $("#trailer2 iframe").attr("src", $("#trailer2 iframe").attr("src"));
+});
+
+$('.my-slick-slider').slick({
+autoplay:false,
+infinite: true,
+slidesToShow: 2,
+slidesToScroll: 2
 });
 
 });

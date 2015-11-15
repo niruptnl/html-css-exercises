@@ -1,3 +1,37 @@
+ body{background-color: lightgoldenrodyellow;}
+
+ /* div on hover example */
+
+.thumbnail .hspan img:hover{
+ opacity: 0.1;
+ transition: all .2s linear;
+ cursor: text;
+ text-decoration: none;
+}
+
+.thumbnail .hoverspan:hover .hspan img{
+ opacity: 0.1;
+ cursor: text;
+ text-decoration: none;
+}
+
+.hoverspan{
+ opacity: 0;
+ position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.thumbnail img:hover .hoverspan{
+ opacity: 1;
+ transition: all .2s linear;
+}
+
+/* div on hover example end*/
+
+/* Modal Trailers */
+
 #trailer1 .modal-content{
   background-color: white;
   padding: 0px;
@@ -31,6 +65,8 @@
   font-size: 23px;
   opacity: 1;
 }
+
+/* Modal Trailers end*/
 
 /* modal body styling */
 .usersignin{
@@ -156,8 +192,145 @@ position: static;
 
  /* Carousel styling end*/
 
+ /* Flex Styling end */
+
+ .newrow{
+   margin-top: 15px;
+ }
+
+ .check,.check1,.check2{
+   display: flex;
+  // border: 3px solid lightgrey;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .row1{
+   margin: 2px;
+   background-color: floralwhite;
+   width:100%;
+   border: 1px solid white;
+   height: 150px;
+   //text-align: center;
+   border-radius: 5px;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   color:#c02c3a;
+   font-weight:bold;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.5em;
+   box-shadow: 1px 1px 2px #c02c3a;
+   letter-spacing: 1px;
+ }
+.row1.one{height: 120px;}
+.row1.two{height: 80px;}
+.row1.three{height: 100px;}
+/*.row3.one{height: 350px}
+.row3.one{padding: 0px;margin: 0px;}
+.col-sm-3.two{padding: 0px;}*/
+.img-responsive {
+  height: 100%;
+}
+ .row2.one{
+   margin: 2px;
+   background-color: floralwhite;
+   width:100%;
+   border: 1px solid white;
+   //text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   color:#c02c3a;
+   font-weight:bold;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1.5em;
+   box-shadow: 1px 1px 2px #c02c3a;
+ }
+ .row2.two{width:100%;}
+.row2.one span{margin-right: 150px;}
+.row2.one{height: 50px;line-height: 12px;}
+.row2.two{height: 295px; margin-top: 0px;}
+.col-md-3.slide{padding-right: 2px;padding-left: 0px;}
+.slick-bar{margin-left: 10px;margin-right: 10px;}
+button.slick-prev,button.slick-next{
+  border-radius: 50%;
+  background: darkgrey;
+}
+button.slick-prev:hover,button.slick-next:hover{
+  background: darkgrey;
+}
+button.slick-prev:focus,button.slick-next:focus{
+  background: darkgrey;
+}
+.thumbnail{
+  margin-bottom: 0px;
+}
+
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.thumbnail img{
+  height: 224px;
+}
+ /* Flex Styling end */
+
+ /* Wallet Styling start*/
+.wallet img{
+  float: right;
+}
+.wallet{
+  padding-left: 150px;
+  padding-top: 100px;
+}
+#flick,#click{
+  font-size: 28px;
+}
+#description{
+  font-size: 14px;
+  margin-top: 50px;
+}
+#click{
+  color:crimson;
+}
+.wallet button{
+  margin-top: 20px;
+  border-radius: 0;
+  width: 200px;
+}
+
+ /* Wallet Styling end*/
+
+ /* Footer Styling Start*/
+footer{
+background-color:#333338;
+color: #a1a5a7;
+margin-top: 10px;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0px;
+}
+/* Footer Styling End*/
+
  /* Media Queries styling start */
  @media (max-width: 768px) {
+   .wallet img{
+     display: none;
+     visibility: hidden;
+   }
+   .wallet{
+     padding-left: 0px;
+     padding-top: 20px;
+     text-align: center;
+   }
    .item .carousel-caption span{
      font-size: 14px;
    }
@@ -181,6 +354,10 @@ position: static;
  }
 
  @media (max-width: 630px) {
+   .slick-bar{
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 	}
    .carousel-indicators{display: none; visibility: hidden}
    .item .carousel-caption{
      position: absolute;
@@ -210,6 +387,9 @@ position: static;
  }
 
  @media (max-width: 430px) {
+   .title{font-size: 12px;}
+   .badge{font-size: 12px}
+   .row3.one{margin-top: 20px;}
    .item .carousel-caption span{
      display: none;
    }
@@ -252,6 +432,19 @@ position: static;
    margin-left: auto;
    margin-right: auto;
  }
+}
+
+@media(max-width:992px){
+    .row1.one{height: 120px;}
+    .row1.two{height: 70px;}
+    .row1.three{height: 90px;}
+    .row2.two{width:100%;}
+    .row2.two .slide{padding-right: 2px;padding-left: 0px;}
+}
+@media(max-width:430px){
+    .row1.one{height: 130px;}
+    .row1.two{height: 80px;}
+    .row1.three{height: 100px;}
 }
 
  @media (min-width: 768px) {
