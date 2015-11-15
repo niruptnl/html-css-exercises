@@ -1,31 +1,57 @@
  body{background-color: lightgoldenrodyellow;}
+ .thumbnail{
+background-color: lightgoldenrodyellow;
+ border: none;
+ padding: 0;}
 
  /* div on hover example */
 
-.thumbnail .hspan img:hover{
- opacity: 0.1;
- transition: all .2s linear;
- cursor: text;
- text-decoration: none;
-}
-
-.thumbnail .hoverspan:hover .hspan img{
- opacity: 0.1;
- cursor: text;
- text-decoration: none;
-}
-
 .hoverspan{
- opacity: 0;
- position: absolute;
+visibility: hidden;
+position: absolute;
  top: 100px;
  width: 70%;
  left: 15%;
  right: auto;
 }
-.thumbnail img:hover .hoverspan{
- opacity: 1;
- transition: all .2s linear;
+.hoverspan .btn{
+  border-radius: 0;
+}
+
+.hoverspan1{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan1 .btn{
+  border-radius: 0;
+}
+
+.hoverspan2{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan2 .btn{
+  border-radius: 0;
+}
+
+.hoverspan3{
+visibility: hidden;
+position: absolute;
+ top: 100px;
+ width: 70%;
+ left: 15%;
+ right: auto;
+}
+.hoverspan3 .btn{
+  border-radius: 0;
 }
 
 /* div on hover example end*/
@@ -254,7 +280,7 @@ position: static;
 .row2.one span{margin-right: 150px;}
 .row2.one{height: 50px;line-height: 12px;}
 .row2.two{height: 295px; margin-top: 0px;}
-.col-md-3.slide{padding-right: 2px;padding-left: 0px;}
+.col-md-3.slide{padding-right: 2px;padding-left: 2px;}
 .slick-bar{margin-left: 10px;margin-right: 10px;}
 button.slick-prev,button.slick-next{
   border-radius: 50%;
@@ -279,6 +305,7 @@ button.slick-prev:focus,button.slick-next:focus{
 }
 .thumbnail img{
   height: 224px;
+  width: 100%;
 }
  /* Flex Styling end */
 
