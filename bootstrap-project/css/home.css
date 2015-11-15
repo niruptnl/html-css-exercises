@@ -3,11 +3,11 @@
   margin-top: 100px;
 }
 
-.clip-thoongavanam,.clip-hotel-transylvania2,.clip-kanche,.clip-pyaar-ka-punchnama-2,.martian{
+.clip-thoongavanam,.clip-hotel-transylvania2,.clip-kanche,.clip-pyaar-ka-punchnama-2,.clip-martian{
   /*position: absolute;*/
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
-.clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,.clip-pyaar-ka-punchnama-2 img,.martian img{
+.clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,.clip-pyaar-ka-punchnama-2 img,.clip-martian img{
   height: 150px;
   width: 100%;
 }
@@ -427,6 +427,15 @@ ul.unstyled{
 
  /* Media Queries styling start */
  @media (max-width: 768px) {
+   .hreview,.hreview1,.hreview2,.hreview3,.hreview4{
+     width: 50%;
+   }
+   .clip-kanche,.clip-pyaar-ka-punchnama-2{
+     margin-top: 10px;
+   }
+   .clip-martian,.clip-more{
+     margin-top: 10px;
+   }
    .wallet img{
      display: none;
      visibility: hidden;
