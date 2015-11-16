@@ -11,6 +11,10 @@
   height: 150px;
   width: 100%;
 }
+.col-xs-6{
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .col-sm-2.more div{
   border-width: 194px;
   padding-top: 25px;
@@ -42,7 +46,7 @@ position: absolute;
 .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
   border-radius: 0;
 }
-.col-12 #thoongavanam,.col-12 #kanche,.col-12 #pkp2,.col-12 #hotelt2,.col-12 #martian{
+.col-12 #kanche,.col-12 #pkp2,.col-12 #hotelt2,.col-12 #martian{
   visibility: hidden;
 }
 
@@ -424,11 +428,45 @@ ul.unstyled{
   padding: 0px;
 }
 /* Footer Styling End*/
+@media(max-width:992px){
+  .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+    font-size: 11px;
+  }
+
+
+  .reviewdiv{
+    margin-left: 0px;
+  }
+
+  #thoongavanam img,#kanche img,#hotelt2 img,#martian img,#pkp2 img{
+    float: none;
+    display: none;
+    visibility: hidden;
+  }
+  .reviewdiv .reviewdata{
+    float: none;
+    padding-left: 0px;
+  }
+  .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+  .clip-hotel-transylvania2-review{
+    -webkit-clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+
+}
 
  /* Media Queries styling start */
  @media (max-width: 768px) {
-   .hreview,.hreview1,.hreview2,.hreview3,.hreview4{
-     width: 50%;
+   .col-xs-6{
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+   .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+     font-size: 14px;;
    }
    .clip-kanche,.clip-pyaar-ka-punchnama-2{
      margin-top: 10px;
@@ -468,6 +506,19 @@ ul.unstyled{
  }
 
  @media (max-width: 630px) {
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     width: 100%;
+     height: 500px;
+   }
+   .reviewdata{
+     width: 100%;
+     height: 500px;
+   }
+   .reviewdiv{
+     margin-left: 10px;
+     margin-right: 10px;
+   }
    .slick-bar{
  		margin-left: 10px;
  		margin-right: 10px;
@@ -501,6 +552,27 @@ ul.unstyled{
  }
 
  @media (max-width: 430px) {
+   .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
+     font-size: 11px;
+   }
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     height: 700px;
+   }
+   .reviewdata{
+     height: 800px;
+   }
+  .clip-thoongavanam img,.clip-hotel-transylvania2 img,.clip-kanche img,
+  .clip-pyaar-ka-punchnama-2 img,.clip-martian img{
+    height: 130px;
+  }
+  .col-xs-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+   footer{
+     margin-top: 300px;
+   }
    .title{font-size: 12px;}
    .badge{font-size: 12px}
    .row3.one{margin-top: 20px;}
