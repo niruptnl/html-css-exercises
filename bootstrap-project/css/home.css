@@ -388,6 +388,7 @@ margin-right: 02px;
 }
  .row2.one{
    margin: 2px;
+   margin-bottom:15px;
    background-color: firebrick;
    width:100%;
    //text-align: center;
@@ -728,7 +729,7 @@ ul.unstyled{
        display: block;
    }
    .modal-dialog{width: 500px;}
-   #myCarousel .item { height: 503px; }
+   #myCarousel .item { height: 600px; }
 
    #slide1 {
     background: url('../img/img1-prd-large.jpg') top center no-repeat;
