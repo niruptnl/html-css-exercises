@@ -109,73 +109,73 @@ $('#book').on('hidden.bs.modal', function () {
 $(document).ready(function(){
 
 $('#thoongavanam').click(function(){
-  $('.col-12 #thoongavanam').css("visibility","visible");
-  $('.col-12 #hotelt2').css("visibility","hidden");
-  $('.col-12 #kanche').css("visibility","hidden");
-  $('.col-12 #pkp2').css("visibility","hidden");
-  $('.col-12 #martian').css("visibility","hidden");
+  $('.col-12 .thoongavanam').css("visibility","visible");
+  $('.col-12 .hotelt2').css("visibility","hidden");
+  $('.col-12 .kanche').css("visibility","hidden");
+  $('.col-12 .pkp2').css("visibility","hidden");
+  $('.col-12 .martian').css("visibility","hidden");
 
-  $('.col-12 #thoongavanam').css("display","block");
-  $('.col-12 #hotelt2').css("display","none");
-  $('.col-12 #kanche').css("display","none");
-  $('.col-12 #pkp2').css("display","none");
-  $('.col-12 #martian').css("display","none");
+  $('.col-12 .thoongavanam').css("display","block");
+  $('.col-12 .hotelt2').css("display","none");
+  $('.col-12 .kanche').css("display","none");
+  $('.col-12 .pkp2').css("display","none");
+  $('.col-12 .martian').css("display","none");
 });
 
 $('#hotelt2').click(function(){
-  $('.col-12 #thoongavanam').css("visibility","hidden");
-  $('.col-12 #kanche').css("visibility","hidden");
-  $('.col-12 #pkp2').css("visibility","hidden");
-  $('.col-12 #martian').css("visibility","hidden");
-  $('.col-12 #hotelt2').css("visibility","visible");
+  $('.col-12 .thoongavanam').css("visibility","hidden");
+  $('.col-12 .kanche').css("visibility","hidden");
+  $('.col-12 .pkp2').css("visibility","hidden");
+  $('.col-12 .martian').css("visibility","hidden");
+  $('.col-12 .hotelt2').css("visibility","visible");
 
-  $('.col-12 #thoongavanam').css("display","none");
-  $('.col-12 #hotelt2').css("display","block");
-  $('.col-12 #kanche').css("display","none");
-  $('.col-12 #pkp2').css("display","none");
-  $('.col-12 #martian').css("display","none");
+  $('.col-12 .thoongavanam').css("display","none");
+  $('.col-12 .hotelt2').css("display","block");
+  $('.col-12 .kanche').css("display","none");
+  $('.col-12 .pkp2').css("display","none");
+  $('.col-12 .martian').css("display","none");
 });
 
 $('#kanche').click(function(){
-  $('.col-12 #thoongavanam').css("visibility","hidden");
-  $('.col-12 #hotelt2').css("visibility","hidden");
-  $('.col-12 #kanche').css("visibility","visible");
-  $('.col-12 #pkp2').css("visibility","hidden");
-  $('.col-12 #martian').css("visibility","hidden");
+  $('.col-12 .thoongavanam').css("visibility","hidden");
+  $('.col-12 .hotelt2').css("visibility","hidden");
+  $('.col-12 .kanche').css("visibility","visible");
+  $('.col-12 .pkp2').css("visibility","hidden");
+  $('.col-12 .martian').css("visibility","hidden");
 
-  $('.col-12 #thoongavanam').css("display","none");
-  $('.col-12 #hotelt2').css("display","none");
-  $('.col-12 #kanche').css("display","block");
-  $('.col-12 #pkp2').css("display","none");
-  $('.col-12 #martian').css("display","none");
+  $('.col-12 .thoongavanam').css("display","none");
+  $('.col-12 .hotelt2').css("display","none");
+  $('.col-12 .kanche').css("display","block");
+  $('.col-12 .pkp2').css("display","none");
+  $('.col-12 .martian').css("display","none");
 });
 
 $('#pkp2').click(function(){
-  $('.col-12 #thoongavanam').css("visibility","hidden");
-  $('.col-12 #hotelt2').css("visibility","hidden");
-  $('.col-12 #kanche').css("visibility","hidden");
-  $('.col-12 #pkp2').css("visibility","visible");
-  $('.col-12 #martian').css("visibility","hidden");
+  $('.col-12 .thoongavanam').css("visibility","hidden");
+  $('.col-12 .hotelt2').css("visibility","hidden");
+  $('.col-12 .kanche').css("visibility","hidden");
+  $('.col-12 .pkp2').css("visibility","visible");
+  $('.col-12 .martian').css("visibility","hidden");
 
-  $('.col-12 #thoongavanam').css("display","none");
-  $('.col-12 #hotelt2').css("display","none");
-  $('.col-12 #kanche').css("display","none");
-  $('.col-12 #pkp2').css("display","block");
-  $('.col-12 #martian').css("display","none");
+  $('.col-12 .thoongavanam').css("display","none");
+  $('.col-12 .hotelt2').css("display","none");
+  $('.col-12 .kanche').css("display","none");
+  $('.col-12 .pkp2').css("display","block");
+  $('.col-12 .martian').css("display","none");
 });
 
 $('#martian').click(function(){
-  $('.col-12 #thoongavanam').css("visibility","hidden");
-  $('.col-12 #hotelt2').css("visibility","hidden");
-  $('.col-12 #kanche').css("visibility","hidden");
-  $('.col-12 #pkp2').css("visibility","hidden");
-  $('.col-12 #martian').css("visibility","visible");
+  $('.col-12 .thoongavanam').css("visibility","hidden");
+  $('.col-12 .hotelt2').css("visibility","hidden");
+  $('.col-12 .kanche').css("visibility","hidden");
+  $('.col-12 .pkp2').css("visibility","hidden");
+  $('.col-12 .martian').css("visibility","visible");
 
-  $('.col-12 #thoongavanam').css("display","none");
-  $('.col-12 #hotelt2').css("display","none");
-  $('.col-12 #kanche').css("display","none");
-  $('.col-12 #pkp2').css("display","none");
-  $('.col-12 #martian').css("display","block");
+  $('.col-12 .thoongavanam').css("display","none");
+  $('.col-12 .hotelt2').css("display","none");
+  $('.col-12 .kanche').css("display","none");
+  $('.col-12 .pkp2').css("display","none");
+  $('.col-12 .martian').css("display","block");
 });
 
 });

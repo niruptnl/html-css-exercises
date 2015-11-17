@@ -1,3 +1,4 @@
+
 /* Reviews CSS */
 .container-fluid.movies{
   margin-top: 100px;
@@ -46,43 +47,58 @@ position: absolute;
 .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
   border-radius: 0;
 }
-.col-12 #kanche,.col-12 #pkp2,.col-12 #hotelt2,.col-12 #martian{
+.col-12 .kanche,.col-12 .pkp2,.col-12 .hotelt2,.col-12 .martian{
   visibility: hidden;
 }
 
-.reviewdiv{
+.col-12.reviewdiv{
   margin-top: 20px;
   height: 600px;
-  margin-left: 20px;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 50px;
 }
-#thoongavanam img,#hotelt2 img,#kanche img,#martian img,#pkp2 img{
-  float: left;
+
+.thoongavanam img,.hotelt2 img,.kanche img,.martian img,.pkp2 img{
+height: 400px;
+/*width: 400px;
+height: 300px;*/
+}
+.col-sm-5.poster{
+  padding-right: 0px;
+}
+.col-sm-5.posterreview{
+  padding-left: 0px;
 }
 .reviewdata{
-  float: left;
-  width:600px;
-  height: 400px;
-  padding-left: 40px;
+
+  width:100%;
+  height: 100%;
+  padding-left: 90px;
+
   /*background-color: lightgrey;*/
 }
 .clip-thoongavanam-review{
-  float: left;
-    -webkit-clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 5% 20%,0% 20%,5% 10%);
-    width:600px;
-    height: 400px;
+      float: left;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 15% 20%,0% 20%,15% 12%);
+    width:100%;
+    height: 100%;
   /*border: 1px solid blue;*/
   background-color: darkkhaki;
-  padding: 10px;
+  padding: 0px;
   line-height: 1.5em;
   color:floralwhite;
   box-shadow: 0px 0px 5px crimson;
 }
-.clip-thoongavanam-review h5{letter-spacing: 0.4px;}
-/* Reviews CSS End */
+.clip-thoongavanam-review h5{letter-spacing: 0.3px;}
 
- body{background-color: lightgoldenrodyellow;}
+
+
+/* Reviews CSS End /////////////////////////////////////////////////////*/
+
+ body{background-color: white;}
  .thumbnail{
-background-color: lightgoldenrodyellow;
+background-color: white;
  border: none;
  padding: 0;}
 
@@ -200,6 +216,7 @@ position: absolute;
 /* modal body styling end*/
 
 /* Navbar styling start */
+
 .navbar-header a{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -207,9 +224,20 @@ position: absolute;
 }
 
 .navbar-default{
-  background-color: lightyellow;
+  background-color: #1f2533;
 }
-
+.navbar{
+  border: none;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: white;
+}
 
 .navbar-right{
   padding-right: 2px;
@@ -230,10 +258,15 @@ marquee{
 }
 .navbar-default marquee .btn-link{
   font-weight: bold;
+  color: white;
 }
 marquee .btn-link:hover{
   text-decoration: none;
   cursor: pointer;
+  color: white;
+}
+.navbar-toggle{
+  background-color: white;
 }
 
 /* Navbar styling end */
@@ -242,12 +275,12 @@ marquee .btn-link:hover{
 .item .carousel-caption{
   position: absolute;
   left: 65%;
-  right: 0%;
-  bottom: -1%;
+  right: 1%;
+  bottom: 0%;
   font-weight: bold;
 }
-.item .carousel-caption button{
-  border-radius: 5%;
+.item .carousel-caption .btn{
+  border-radius: 0px;
 }
 .item .carousel-caption span{
   color:floralwhite;
@@ -260,22 +293,28 @@ marquee .btn-link:hover{
 
 .carousel-control {
     top: 45%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 .carousel-control .icon-next{
 font-size: 50px;
 position: static;
-margin-left: 10px;
+margin-left: 01px;
 }
 .carousel-control .icon-prev{
 font-size: 50px;
 position: static;
+margin-right: 02px;
 }
  #myCarousel {
-  margin-top: 60px;
+  margin-top: 50px;
+  margin-bottom: 20px;
  }
 
+ .container-fluid.carouselbar{
+   padding-left: 0px;
+   padding-right: 0px;
+ }
  .carousel-caption {
   font-size: 24px;
  }
@@ -283,6 +322,13 @@ position: static;
  .carousel-caption h4 {
   font-size: 32px;
  }
+
+  .carousel-control.right{
+    background-image: none;
+  }
+  .carousel-control.left{
+    background-image: none;
+  }
 
  #myCarousel .item { height: 400px; }
 
@@ -308,7 +354,6 @@ position: static;
 
  .check,.check1,.check2{
    display: flex;
-  // border: 3px solid lightgrey;
    flex-direction: column;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -317,16 +362,15 @@ position: static;
 
  .row1{
    margin: 2px;
-   background-color: floralwhite;
+   background-color: firebrick;
    width:100%;
-   border: 1px solid white;
    height: 150px;
    //text-align: center;
    border-radius: 5px;
    padding: 10px;
    margin-bottom: 10px;
    text-align: center;
-   color:#c02c3a;
+   color:white;
    font-weight:bold;
    font-family: 'Raleway', sans-serif;
    line-height: 1.5em;
@@ -344,15 +388,14 @@ position: static;
 }
  .row2.one{
    margin: 2px;
-   background-color: floralwhite;
+   background-color: firebrick;
    width:100%;
-   border: 1px solid white;
    //text-align: center;
    border-radius: 5px;
    padding: 20px;
    margin-bottom: 10px;
    text-align: center;
-   color:#c02c3a;
+   color:white;
    font-weight:bold;
    font-family: 'Raleway', sans-serif;
    line-height: 1.5em;
@@ -394,9 +437,11 @@ button.slick-prev:focus,button.slick-next:focus{
  /* Wallet Styling start*/
 .wallet img{
   float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .wallet{
-  padding-left: 150px;
+  padding-left: 80px;
   padding-top: 100px;
 }
 #flick,#click{
@@ -433,34 +478,27 @@ ul.unstyled{
     font-size: 11px;
   }
 
-
-  .reviewdiv{
-    margin-left: 0px;
-  }
-
-  #thoongavanam img,#kanche img,#hotelt2 img,#martian img,#pkp2 img{
-    float: none;
-    display: none;
-    visibility: hidden;
-  }
-  .reviewdiv .reviewdata{
-    float: none;
-    padding-left: 0px;
-  }
-  .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
-  .clip-hotel-transylvania2-review{
-    -webkit-clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 100%);
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-  }
-
-
 }
 
  /* Media Queries styling start */
  @media (max-width: 768px) {
+   .thoongavanam img,.kanche img,.hotelt2 img,.martian img,.pkp2 img{
+     float: none;
+     display: none;
+     visibility: hidden;
+   }
+    .reviewdata{
+        padding: 0px;
+    }
+
+   .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
+   .clip-hotel-transylvania2-review{
+     -webkit-clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+   }
    .col-xs-6{
      padding-left: 15px;
      padding-right: 15px;
@@ -488,7 +526,7 @@ ul.unstyled{
    }
    #myCarousel .item { height: 300px; }
    #myCarousel{
-     width: 600px;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
    }
@@ -506,6 +544,7 @@ ul.unstyled{
  }
 
  @media (max-width: 630px) {
+
    .clip-thoongavanam-review,.clip-kanche-review.clip-pyaar-ka-punchnama-2-review.clip-martian-review
    .clip-hotel-transylvania2-review{
      width: 100%;
@@ -532,9 +571,9 @@ ul.unstyled{
    .item .carousel-caption span{
      font-size: 14px;
    }
-   #myCarousel .item { height: 200px; }
+   #myCarousel .item { height: 250px; }
    #myCarousel{
-     width: 400px;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
    }
@@ -552,6 +591,9 @@ ul.unstyled{
  }
 
  @media (max-width: 430px) {
+   footer{
+     margin-top: 300px;
+   }
    .hreview .btn,.hreview1 .btn,.hreview2 .btn,.hreview3 .btn,.hreview4 .btn{
      font-size: 11px;
    }
@@ -570,9 +612,7 @@ ul.unstyled{
     padding-left: 5px;
     padding-right: 5px;
   }
-   footer{
-     margin-top: 300px;
-   }
+
    .title{font-size: 12px;}
    .badge{font-size: 12px}
    .row3.one{margin-top: 20px;}
@@ -582,13 +622,13 @@ ul.unstyled{
    .item .carousel-caption .btn{
      padding: 2px;
    }
-   .item .carousel-caption button{
-     border-radius: 0%;
+   .item .carousel-caption .btn{
+     border-radius: 0px;
    }
    .carousel-indicators{display: none; visibility: hidden}
-   #myCarousel .item { height: 160px; }
+   #myCarousel .item { height: 200px; }
    #myCarousel{
-     width: 200px;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
    }
@@ -634,6 +674,15 @@ ul.unstyled{
 }
 
  @media (min-width: 768px) {
+
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 0px;
+  }
+
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+      margin-left: 0px;
+    }
+
    ul.nav li.dropdown#home:hover > ul.dropdown-menu {
        display: block;
      }
@@ -696,3 +745,15 @@ ul.unstyled{
  }
 
  /* Media Queries styling end */
+ /*#myCarousel .item{
+   height: 500px;
+ }*/
+
+ #myCarousel .item img{
+   width: 100%;
+   min-height: 300px;
+ }
+
+  #slide1,#slide2,#slide3{
+    background-image: none;
+  }
